@@ -1,3 +1,13 @@
 h1{
-    color: 'lightblue'
+    color: lightblue;
 }
+
+video {
+  -webkit-filter: blur(4px) invert(0) opacity(0.5);
+}
+
+/*video {
+   filter: hue-rotate(180deg) saturate(200%);
+   -moz-filter: hue-rotate(180deg) saturate(200%);
+   -webkit-filter: hue-rotate(180deg) saturate(200%);
+ }*/
